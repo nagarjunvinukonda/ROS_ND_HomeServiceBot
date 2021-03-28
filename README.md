@@ -25,7 +25,7 @@ $ catkin_make
 Launch the home service robot
 
 ```
-$ cd catkin_ws/src/P5-Home-Service-Robot/scripts
+$ cd catkin_ws/src/scripts
 $ chmod +x home_service.sh
 $ ./home_service.sh
 ```
@@ -35,7 +35,7 @@ $ ./home_service.sh
 #### Mapping
 
 ```
-$ cd catkin_ws/src/P5-Home-Service-Robot/scripts
+$ cd catkin_ws/src/scripts
 $ chmod +x test_slam.sh
 $ ./test_slam.sh
 ```
@@ -45,7 +45,7 @@ The apartment's map is built with `gmapping` using slam technique. The robot was
 #### Localization and Navigation
 
 ```
-$ cd catkin_ws/src/P5-Home-Service-Robot/scripts
+$ cd catkin_ws/src/scripts
 $ chmod +x test_navigation.sh
 $ ./test_navigation.sh
 ```
@@ -55,7 +55,7 @@ Loaded the map built from slam module, the robot then can use Monte Carlo Locali
 #### Home Service
 
 ```
-$ cd catkin_ws/src/P5-Home-Service-Robot/scripts
+$ cd catkin_ws/src/scripts
 $ chmod +x add_marker.sh pick_objects.sh
 $ ./add_marker.sh
 $ ./pick_objects.sh
@@ -79,7 +79,6 @@ turtlebot3                     		# turtlebot 3
 ├── ...
 |
 |
-P5-Home-Service-Robot     		    # This package
 ├── scripts                   		# shell scripts files
 |   ├── home_service.sh
 |   ├── add_marker.sh
@@ -103,7 +102,6 @@ P5-Home-Service-Robot     		    # This package
 │   |   ├── turtlebot3_world.launch
 │   ├── CMakeLists.txt
 │   ├── package.xml
-├── demonstration             		# Demonstrate file for README 
 ├── ├── p5.gif
 └── README.md                  		# Readme file                                          
 ```
