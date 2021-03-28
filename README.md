@@ -1,7 +1,7 @@
 # ROS_ND_HomeServiceBot
 This ND project is used to navigate an indoor service robot for pick-up and place application
 # Overview
-This project integrates mapping, localization and path planning to navigate the robot and implement a pick&drop task. The robot is spawned in an apartment, whose map was built using slam technique previously. The robot then uses laser scan to localize itself in the environment. Two goal poses are given for picking and dropping a certain object. The robot plans the path and navigate to the desired poses one after another in order to achieve the pick&drop task.
+This project integrates mapping, localization and path planning to navigate the robot and implement a pick&drop task. The robot is spawned in an apartment, whose map was built using slam technique. The robot then uses laser scan to localize itself in the environment. Two goal poses are given for picking and dropping a certain object. The robot plans the path and navigate to the desired poses one after another in order to achieve the pick&drop task.
 
 # Launch Instruction
 
